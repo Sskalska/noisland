@@ -1,0 +1,473 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin',sans-serif;
+}
+
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* or 117% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+h2{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
+h6{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #999999;
+}
+
+span{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 1px solid #000;
+    transition: all 0.5s ease;
+}
+
+p{
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #666666;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    margin: 0;
+    color: #E6E6E6;
+}
+
+.conteiner{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    height: 17px;
+    margin-top: 37px;
+    border-radius: 0px;
+}
+
+.menu{
+    margin-top: 33px;
+    display: flex;
+    margin-left: 965px;
+}
+
+.menu li{
+    margin-right: 40px;
+}
+
+.menu li a{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.header-line{
+    top: 80px;
+    width: 100%;
+    background-color: #e6e6e6;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    overflow-x: hidden;
+    z-index: 1;
+    height: 1.5px;
+    margin: auto;
+    border: none;
+}
+
+.conteiner-wraper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-photo{
+    width: 721px;
+    height: 474px;
+    margin-top: 31px;
+    margin-left: 0px;
+}
+
+.text-conteiner-wraper{
+    width: 480px;
+    height: 342px;
+    margin-top: -380px;
+    margin-left: 720px;
+}
+
+.header h1,h6,p,span{
+    margin-left: 51px;
+}
+
+.header h6{
+    margin-top: 5px;
+}
+
+.header h1{
+    margin-top: 18px;
+}
+
+.header p{
+    margin-top: 27px;
+}
+
+.header span{
+   margin-top: 28px; 
+}
+
+.block-card-1{
+    margin-top: 63.5px;
+}
+
+.conteiner-block-1{
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 406.66px;
+    height: 481.73px;
+}
+
+.img-card{
+    padding-top: 25.5px;
+    margin-left: 9.83px;
+    margin-right: 9.83px;
+}
+
+.card h6{
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.card h2{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.card span{
+    margin-top: 15.23px;
+    margin-left: 10px;
+    margin-bottom: 49px;
+}
+
+.conteiner-block-1 div:nth-child(n+4){
+    margin-top: 20px;
+}
+
+.section-line{
+    margin: 65px auto 90px;
+    width: 1200px;
+}
+
+.conteiner-block-2{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr)
+}
+
+.latest{
+    width: 93px;
+    height: 12px;
+  margin:  0px 0px 30px 162px  ; 
+}
+
+.card-small{
+    width: 305px;
+    height: 389.03px;
+    margin-top: 25px;
+}
+
+.img-card-small{
+    margin: 0px 10px;
+}
+
+.card-small h6{
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.card-small h2{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.card-small span{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.conteiner-block-2 div:nth-child(n+5){
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.btn{
+    font-size: 10px;
+    width: 205px;
+    height: 54px;
+    display: block;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 18px 24px;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    opacity: 0.77;
+}
+
+.section-line-2{
+    margin: 90px auto 90px;
+    width: 1200px;
+}
+
+.block-card-3{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.featured{   
+    width: 108px;
+    height: 12px;
+    margin:  0px 0px 30px 0px;
+}
+
+.conteiner-block-3{
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-big{
+    padding: 25px 10px 49px 10px;
+    width: 610px;
+    height: 567.19px;
+}
+
+.card-big h6{
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.card-big h2{
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+.card-big span{
+    margin-top: 15.22px;
+    margin-left: 0px;
+}
+
+footer{
+    height: 717px;
+    background: #141414;
+    border-radius: 0px;
+}
+
+.footer-conteiner{
+    width: 1200px;
+    margin: 90.5px auto;
+}
+
+.logo-footer{
+    margin: 90px auto;
+}
+
+.footer-conteiner h5{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: -100px;
+    margin-left: 150px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    }
+
+.footer-line{
+margin-top: 59.59px;
+}
+
+.categ {
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.footer-conteiner ul{
+    width: 900px;
+    height: 110px;
+   
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 0fr);
+}
+
+.footer-conteiner ul li{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer-conteiner ul li a{
+    color: #FFFFFF;
+}
+
+.footer-sub{
+    margin-top: -146px;
+    margin-left: 894px;
+}
+
+form{
+    margin-left: 891px;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    padding: 18px 23px;
+    width: 221px;
+    height: 48px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px;
+}
+
+form a{
+    font-size: 10px;
+    width: 79px;
+    height: 48px;
+    display: block;
+    margin-top: -48px;
+    margin-left: 221px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 18px 24px;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    opacity: 0.77;
+}
+
+.information{
+    width: 225px;
+    height: 129px;
+    margin-top: 160px;
+    margin-left: 0px;
+}
+
+.information h6{
+    margin-left: 0;
+}
+
+.follow{
+    width: 225px;
+    height: 129px;
+    margin-top: -153px;
+    margin-left: 225px;
+}
+
+.follow h6{
+    margin-left: 0;
+}
+
+.template{
+    width: 225px;
+    height: 129px;
+    margin-top: -153px;
+    margin-left: 450px;
+}
+
+.template h6{
+    margin-left: 0;
+}
